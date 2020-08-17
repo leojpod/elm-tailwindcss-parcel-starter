@@ -1,0 +1,37 @@
+{
+  "name": "elm-tailwindcss-postcss-parcel-starter",
+  "version": "1.0.0",
+  "description": "a quick starter for simple elm project with parcel, tailwindcss (via postcss) and parcel",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leojpod/elm-tailwindcss-postcss-parcel-starter.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leojpod/elm-tailwindcss-postcss-parcel-starter/issues"
+  },
+  "homepage": "https://github.com/leojpod/elm-tailwindcss-postcss-parcel-starter#readme",
+  "dependencies": {
+    "tailwindcss": "^1.6.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.9.0",
+    "@typescript-eslint/parser": "^3.9.0",
+    "elm-hot": "^1.1.5",
+    "eslint": "^7.7.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "node-elm-compiler": "^5.0.4",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.9.7"
+  }
+}
