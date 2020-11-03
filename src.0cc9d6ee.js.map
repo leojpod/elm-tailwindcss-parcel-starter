@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.ts"],"names":[],"mappings":";;;;;AAGA,aAAA,OAAA,eAAA,QAAA,aAAA,CAAA,OAAA,IAHA,QAAA,eACA,IAAA,EAAA,QAAA,kBAEA,EAAA,IAAI,KAAK,KAAK,CAAE,MAAO","file":"src.0cc9d6ee.js","sourceRoot":"../src","sourcesContent":["import \"./style.css\";\nimport { Elm } from \"./elm/Main.elm\";\n\nElm.Main.init({ flags: {} });\n"]}
