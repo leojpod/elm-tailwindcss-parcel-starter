@@ -6,6 +6,7 @@ repl-temp-*
 
 # node stuff
 node_modules/
+package-lock.json
 
 
 # parcel stuff
