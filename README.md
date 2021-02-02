@@ -1,11 +1,13 @@
 # elm-tailwindcss-parcel-starter
 
 I usually use [create-elm-app](https://github.com/halfzebra/create-elm-app) but
-lately I've been using a simpler setup.
+lately I've been using a simpler set-up.
 Instead of rewriting that set-up all the time, I decided to make it a template
 and here it is.
 This set-up aims to be simple yet fully working for writing elm applications
 styled with tailwindcss and packed up with parcel.js.
+
+You can see the result [here](https://leojpod.github.io/elm-tailwindcss-parcel-starter)
 
 ## Running it
 
