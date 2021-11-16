@@ -1,7 +1,7 @@
 # elm-tailwindcss-parcel-starter
 
-I usually use [create-elm-app](https://github.com/halfzebra/create-elm-app) but
-lately I've been using a simpler set-up.
+I used to work with [create-elm-app](https://github.com/halfzebra/create-elm-app)
+but for the past year or so I've been using a simpler set-up.
 Instead of rewriting that set-up all the time, I decided to make it a template
 and here it is.
 This set-up aims to be simple yet fully working for writing elm applications

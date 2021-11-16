@@ -4,7 +4,8 @@
   "description": "a quick starter for simple elm project with parcel, tailwindcss and parcel",
   "main": "index.js",
   "scripts": {
-    "start": "parcel src/index.html",
+    "start": "npm run css:build && npx run-pty % npm run css:watch % npm run app:start % npx elm-doc-preview",
+    "app:start": "parcel src/index.html",
     "build": "parcel build src/index.html --public-url ./",
     "css:build": "npx tailwindcss build src/css/style.css -o src/style.css",
     "css:prod": "NODE_ENV=production npm run css:build",
@@ -30,6 +31,8 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^3.9.0",
     "@typescript-eslint/parser": "^3.9.0",
+    "autoprefixer": "^10.4.0",
+    "elm-doc-preview": "^5.0.5",
     "elm-hot": "^1.1.5",
     "eslint": "^7.7.0",
     "eslint-config-standard": "^14.1.1",
@@ -39,6 +42,7 @@
     "eslint-plugin-standard": "^4.0.1",
     "node-elm-compiler": "^5.0.4",
     "parcel-bundler": "^1.12.4",
+    "run-pty": "^2.3.2",
     "typescript": "^3.9.7"
   }
 }

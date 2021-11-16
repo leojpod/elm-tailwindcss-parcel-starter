@@ -6,7 +6,7 @@ repl-temp-*
 
 # node stuff
 node_modules/
-package-lock.json
+yarn.lock
 
 
 # parcel stuff
