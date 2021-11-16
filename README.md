@@ -26,6 +26,10 @@ via the tailwind CLI and pack everything up in a nice development server with pa
 It will also start an [elm-doc-preview](https://github.com/dmy/elm-doc-preview)
 so you don't need to hit the [package.elm-lang.com](package.elm-lang.com) to
 read the doc of any elm package you've installed on your machine, ain't it cool?
+
+As a bonus, `npm start` will also run [`elm-review`](https://github.com/jfmengels/elm-review/)
+every time your code change.
+
 That should be all!
 
 ## How does it work?
