@@ -5,4 +5,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"QCba":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),require("./style.css");var e=require("./elm/Main.elm");e.Elm.Main.init({flags:{}});
 },{"./style.css":"iMte","./elm/Main.elm":"ENeC"}]},{},["QCba"], null)
-//# sourceMappingURL=src.0cc9d6ee.js.map
+//# sourceMappingURL=src.fad8219c.js.map
