@@ -19,7 +19,7 @@ Once you've created your new project with this template just `cd` in it and run:
 npm install
 ```
 
-Once you've all the dependencies installed you just need to run `npm start`
+Once you've all the dependencies installed, you just need to run `npm start`
 which uses [`run-pty`](https://github.com/lydell/run-pty) to run several
 commands side by side. In our case, it will run the script to generate the CSS
 via the tailwind CLI and pack everything up in a nice development server with parcel.
@@ -47,6 +47,10 @@ once, or by running `npm run css:watch` which will run the build each time the
 `tailwind.config.js` file is changed or one of the CSS file inside `src/css/` does.
 Lastly, `npm run css:prod` will activate tailwind's purging and remove from the
 generated CSS any tailwind rule that is not used.
+
+**_NOTE:_** with tailwindcss v3 and the Just-in-time mode, I had to add the `SAFELISTING` trick to preserve my work workflow.
+I usually start with a rough UI that I make in elm, then I jump in the dev-tools of my browser and fine tune the classes.
+The `safelist` trick allows to "force" the JIT to generate all the classes so that I can keep tweaking stuff in my web-browser.
 
 ### Build the rest with parcel
 

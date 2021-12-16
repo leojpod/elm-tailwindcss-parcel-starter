@@ -17,3 +17,5 @@ dist/
 # tailwindcss temporary file
 src/style.css
 .DS_Store
+.parcel-cache/
+.vim/
